@@ -45,4 +45,4 @@ const pitchersSchema = new Schema({
     PlayerId: String
 })
 
-module.exports = mongoose.model("pitchers", pitchersSchema)
+module.exports = mongoose.model("Pitchers", pitchersSchema)

@@ -30,4 +30,4 @@ const hittersSchema = new Schema({
 
 })
 
-module.exports = mongoose.model('hitters', hittersSchema)
+module.exports = mongoose.model('Hitters', hittersSchema)
