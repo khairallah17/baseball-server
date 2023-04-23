@@ -26,7 +26,7 @@ app.use(cors({
 
 app.get("/", (req, res) => {
 
-    res.json({message: "api working"})
+    res.send("API WORKING")
 
 })
 
