@@ -1,0 +1,48 @@
+const mongoose = require("mongoose")
+const Schema = mongoose.Schema
+
+const pitchersSchema = new Schema({
+    Name: String,
+    Team: String,
+    W: String,
+    L: String,
+    QS: String,
+    ERA: String,
+    G: String,
+    GS: String,
+    SV: String,
+    HLD: String,
+    IP: String,
+    TBF: String,
+    H: String,
+    R: String,
+    ER: String,
+    HR: String,
+    BB: String,
+    IBB: String,
+    HBP: String,
+    SO: String,
+    "K/9": String,
+    "BB/9": String,
+    "K/BB": String,
+    "HR/9": String,
+    "K%": String,
+    "BB%": String,
+    "K-BB%": String,
+    AVG: String,
+    WHIP: String,
+    BABIP: String,
+    "LOB%": String,
+    "GB%": String,
+    "HR/FB": String,
+    FIP: String,
+    WAR: String,
+    "RA9-WAR": String,
+    ADP: String,
+    InterSD: String,
+    InterSK: String,
+    IntraSK: String,
+    PlayerId: String
+})
+
+module.exports = mongoose.model("pitchers", pitchersSchema)
