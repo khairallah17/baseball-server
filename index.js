@@ -21,7 +21,7 @@ connectDB()
 
 app.use(express.json())
 app.use(cors({
-    origin: ["*","https://baseball-players-stats.vercel.app"],
+    origin: "*",
 }))
 
 app.get("/", (req, res) => {
